@@ -1,7 +1,7 @@
 name: github-action
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   docker:
     runs-on: Ubuntu-20.04
